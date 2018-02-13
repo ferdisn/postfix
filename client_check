@@ -1,0 +1,9 @@
+# https://ethitter.com/2016/03/blocking-sender-ips-in-postfix/
+# blok selektif
+# ipdeny.com
+
+115.59.74.249		REJECT
+121.201.38.118		REJECT
+115.160.177.22		REJECT
+27.50.138.69		REJECT
+78.157.216.211		REJECT

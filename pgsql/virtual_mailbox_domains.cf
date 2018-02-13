@@ -1,0 +1,6 @@
+# virtual_mailbox_domains.cf
+user            = mail_management
+password        = mail_management
+dbname=mail
+hosts          = localhost
+query           = SELECT domain FROM domains WHERE domain = '%s';

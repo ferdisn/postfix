@@ -1,0 +1,11 @@
+# Catch All
+@domain			user@domain
+
+# if catch all is defined, all existing mailboxes must be given an alias to itself, otherwise don't
+user@domain		user@domain
+
+# distribution
+distribution@domain	user1@domain, user2@domain
+
+# domain alias
+@example.com		@example.org

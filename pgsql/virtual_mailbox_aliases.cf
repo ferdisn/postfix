@@ -1,0 +1,7 @@
+# virtual_mailbox_domains.cf
+user            = mail_management
+password        = mail_management
+dbname		= mail
+hosts		= localhost
+query           = select destination_alias from virtual_aliases where alias_ext = '%s';
+

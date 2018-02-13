@@ -1,0 +1,6 @@
+# virtual_mailbox_maps.cf
+user            = mail_management
+password        = mail_management
+dbname          = mail
+hosts          = localhost
+query           = select domains.domain::text|| '/' || mailboxes.user::text || '/' as maildir from mailboxes inner join domains on mailboxes.domain_id = domains.id where domains.domain = '%d' and mailboxes.user = '%u';
